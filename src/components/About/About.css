@@ -1,0 +1,16 @@
+.about-info{
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* .about-wrapper .about-info{
+    color:#fff;
+    color:var(--primary-white);
+
+} */
+
+.profile2{
+    width: 80%;
+    border-radius: 10%;
+}

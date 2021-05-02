@@ -1,0 +1,63 @@
+/* .contact-form-wraper{
+	margin:0;
+	background: url(../../../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+} */
+.contact{
+	width: 60%;
+	margin: 50px auto;
+	color: #ffffff;
+	font-family: Tahoma;
+	background-color:rgba(46,204,113 ,0.7);
+	padding: 50px;
+	border-radius: 10px;
+}
+.contact h2{
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+.contact hr{
+	border-top: 0;
+	border-bottom: 1px solid #ffffff;
+}
+.contact label{
+	display: block;
+	margin: 5px 0;
+}
+.contact input{
+	width:100%;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 2px solid #ffffff;
+	background: transparent;
+}
+.contact input:hover,
+.contact textarea:hover{
+	border: 2px solid #e15f41;
+}
+.contact input:focus,
+.contact textarea:focus{
+	border: 2px solid #fff200;
+}
+.contact textarea{
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px 0;
+	padding: 5px;
+	border: 2px solid #ffffff;
+	background: transparent;
+}
+.contact input[type="submit"]{
+	width:25%;
+	cursor: pointer;
+	background: #546de5;
+	color: #ffffff;
+	border: 1.25px solid #3dc1d3;
+	transition: 0.5s;
+}
+.contact input[type="submit"]:hover{
+	background: transparent;
+}

@@ -1,0 +1,36 @@
+.header-wraper{
+    position: relative;
+    background: url(../../../images/header-bg.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 90vh;
+}
+.header-info{
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* .main-info h1{
+    color: orange;
+    color: var(--primary-orange);
+    text-transform: uppercase;
+} */
+.typed-text{
+    font-size: 2rem;
+    color: orange;
+    color: var(--primary-orange);
+}
+.profile1{
+    height:500px;
+    border-radius: 25%;
+    margin-top: 25%;
+}
+.vertical-center{
+    position: absolute;
+    top: 50%;
+}
+.header-wraper .header-info{
+    color:#fff;
+    color:var(--primary-white);
+}

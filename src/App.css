@@ -1,4 +1,25 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+  --primary-white:#fff;
+  --primary-orange:#f9ab00;
+  --primary-dark:rgb(255,255,255,0);
+}
+.greenyellow-highlight{
+  color: greenyellow;
+}
+.divider{
+  width:100px;
+  height: 5px;
+  /* background-color:rgb(103, 24, 177); */
+  /* background-color:blue; */
+  background-color:rgb(47, 206, 255);
+  margin: auto;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

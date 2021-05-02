@@ -1,0 +1,19 @@
+.resume-secion button{
+    width:20%;
+    margin-left: 40%;
+}
+.vertical-line {
+  height: 3px;
+  background-color:orange;
+  background-color:var(--primary-orange);
+}
+.resume-secion a{
+    text-decoration: none !important;
+    color: black;
+}
+.resume-secion .card {
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    /* background-color: #f1f1f1; */
+  }
