@@ -11,7 +11,7 @@ const Project = ( props ) => {
                         <h5 className="card-title text-primary text-center">{name}</h5>
                     </div>
                     <div className="card-footer">
-                        <small class=""><a target="_blank" href={url}><button  className='btn btn-success'>Visit Site</button></a></small>
+                        <small className=""><a target="_blank" href={url}><button  className='btn btn-success'>Visit Site</button></a></small>
                     </div>
                 </div>
             </div>

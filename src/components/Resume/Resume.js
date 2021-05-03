@@ -11,7 +11,7 @@ const Resume = () => {
 
             <h1 className='text-success text-center mt-5 mb-3'>MY RESUME</h1>
             <div className="divider mb-5"></div>
-            <button className="btn btn-success mb-5"><a href="https://drive.google.com/file/d/1iyBQUakW129owradmJTM4PnB5PLT2XSA/view?usp=sharing">VIEW RESUME </a> <FontAwesomeIcon icon={faBookOpen} style={{ color: '#fff' }} /></button>
+            <a role="button" target='_blank' className="btn btn-success mb-5" href="https://drive.google.com/file/d/1iyBQUakW129owradmJTM4PnB5PLT2XSA/view?usp=sharing">VIEW RESUME <FontAwesomeIcon icon={faBookOpen} style={{ color: '#fff' }} /></a> 
 
             <div className="container">
                 <div className="row">
@@ -79,7 +79,7 @@ const Resume = () => {
             </div>
 
 
-            <button className="btn btn-success mb-5 mt-5"><a href="https://drive.google.com/file/d/1iyBQUakW129owradmJTM4PnB5PLT2XSA/view?usp=sharing">DOWNLOAD RESUME </a> <FontAwesomeIcon icon={faDownload} style={{ color: '#fff' }} /></button>
+            <a role="button" target='_blank' className="btn btn-success mb-5 mt-5" href="https://drive.google.com/file/d/1iyBQUakW129owradmJTM4PnB5PLT2XSA/view?usp=sharing">DOWNLOAD RESUME <FontAwesomeIcon icon={faDownload} style={{ color: '#fff' }} /></a> 
 
 
 

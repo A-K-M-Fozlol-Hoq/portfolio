@@ -1,6 +1,11 @@
-.resume-secion button{
+/* .resume-secion button{
     width:20%;
     margin-left: 40%;
+} */
+
+ .resume-secion .btn{
+  width:20%;
+  margin-left: 40%;
 }
 .vertical-line {
   height: 3px;

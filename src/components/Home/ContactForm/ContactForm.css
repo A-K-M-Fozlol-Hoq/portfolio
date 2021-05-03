@@ -61,3 +61,22 @@
 .contact input[type="submit"]:hover{
 	background: transparent;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+	.contact{
+		width: 70%;
+	}
+	.contact input[type="submit"]{
+		width:40%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.contact{
+		width: 85%;
+	}
+	.contact input[type="submit"]{
+		width:100%;
+	}
+}
