@@ -11,6 +11,7 @@ import Blogs from './components/Blogs/Blogs';
 import NotFound from './components/NotFound/NotFound';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects/Projects';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects></Projects>
+          </Route>
+          
+          <Route path="/projectDetails/:projectId">
+            <ProjectDetails></ProjectDetails>
           </Route>
           <Route path="/blogs">
             <Blogs></Blogs>
