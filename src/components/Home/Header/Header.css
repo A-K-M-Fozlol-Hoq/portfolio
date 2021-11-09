@@ -1,8 +1,8 @@
-.header-wraper{
+.header-wrapper{
     position: relative;
-    background: url(../../../images/header-bg.jpg) no-repeat;
+    /* background: url(../../../images/header-bg.jpg) no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:center; */
     /* height: 90vh; */
     height: 650px;
 }
@@ -31,7 +31,7 @@
     position: absolute;
     top: 50%;
 }
-.header-wraper .header-info{
+.header-wrapper .header-info{
     color:#fff;
     color:var(--primary-white);
 }
