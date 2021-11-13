@@ -18,9 +18,21 @@
 }
 .blogs-wrapper .all-blogs .single-blog .blog-info{
     height: 350px;
-    display: none;
 }
 .blogs-wrapper .blog-link{
     height: 350px;
-    /* display: none; */
+    display: none;
+}
+.blogs-wrapper .all-blogs .single-blog:hover{
+    background-color: #000;
+    color: #fff;
+    transition-duration: 1500ms;
+}
+.blogs-wrapper .all-blogs .single-blog:hover .blog-info{
+    display: none;
+    transition-duration: 1500ms;
+}
+.blogs-wrapper .all-blogs .single-blog:hover .blog-link{
+    display: block;
+    transition-duration: 1500ms;
 }
