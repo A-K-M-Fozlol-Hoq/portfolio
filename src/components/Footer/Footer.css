@@ -1,0 +1,19 @@
+.social{
+    width: 80px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:50px;
+    display: grid;
+    /* background-color: #000; */
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    transform: scale(2);
+}
+.social a{
+    color: #000;
+}
+.social a:hover{
+    transform: scale(2.2);
+    transition-duration: 1s;
+    cursor:pointer;
+}

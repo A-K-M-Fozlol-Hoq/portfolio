@@ -1,8 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../../images/logo-1.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 // import { a } from 'react-router-dom';
 
 const Navbar = () => {
@@ -49,19 +48,19 @@ const Navbar = () => {
                   <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                     <ul className="navbar-nav">
                       <li className="nav-item">
-                        <a className="nav-link ml-40" aria-current="page" href="/home">Home</a>
+                        <Link className="nav-link ml-40" aria-current="page" to="/home">Home</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link ml-40"  href="/projects">Projects</a>
+                        <Link className="nav-link ml-40"  to="/projects">Projects</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link ml-40" href="/blogs">Blogs</a>
+                        <Link className="nav-link ml-40" to="/blogs">Blogs</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link ml-40" href="#contact-us" href="/resume">Resume</a>
+                        <Link className="nav-link ml-40"  to="/resume">Resume</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link ml-40" href="#contact-us" href="/about">About me</a>
+                        <Link className="nav-link ml-40" to="/about">About me</Link>
                       </li>
                     </ul>
                   </div>

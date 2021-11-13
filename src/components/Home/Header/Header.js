@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Typed from 'react-typed';
-import profile from '../../../images/profile-color1.png'
+import profile from '../../../images/profile-color2.png'
 
 const Header = () => {
     return (

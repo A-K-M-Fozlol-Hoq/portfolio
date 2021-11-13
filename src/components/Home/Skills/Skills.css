@@ -1,12 +1,44 @@
 .skill-section{
-    background-color: black;
+    background-color: #fff;
 }
 .skill-header{
     animation-name: skill;
     animation-duration: 2s;
     position: relative;
-    color:orange;
+    color:#000;
     animation-iteration-count: 2;
+    margin: 50px auto;
+}
+.single-skill{
+    height:250px;
+}
+.single-skill:hover{
+    transform: scale(1.15);
+    /* transition-timing-function: ease-in-out; */
+    transition-duration: 1s;
+    cursor:pointer;
+    /* background:#F56160; */
+    /* background:#FFFBF0; */
+    /* background:#28A745; */
+    background:#BDFE54;
+    color:#fff;
+    border-radius: 20px;
+}
+.single-skill:hover{
+    transform: scale(1.15);
+    /* transition-timing-function: ease-in-out; */
+    transition-duration: 1s;
+    cursor:pointer;
+}
+.skill-section img{
+    width: 60%;
+    height: 130px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.skill-section .skills p{
+    text-align: center;
+    margin-top: 20px;
 }
 @keyframes skill {
     0% {color: red; left:0px; top:-500px;}

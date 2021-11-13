@@ -3,6 +3,7 @@ import Navbar from '../Home/Navbar/Navbar';
 import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faDownload, faGraduationCap, faLaptopCode, faBriefcase, faAtlas, faChartLine } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../Footer/Footer';
 
 const Resume = () => {
     return (
@@ -82,9 +83,10 @@ const Resume = () => {
             <a role="button" target='_blank' className="btn btn-success mb-5 mt-5" href="https://drive.google.com/file/d/1iyBQUakW129owradmJTM4PnB5PLT2XSA/view?usp=sharing">DOWNLOAD RESUME <FontAwesomeIcon icon={faDownload} style={{ color: '#fff' }} /></a> 
 
 
-
+            <Footer></Footer>
         </div>
     );
 };
 
 export default Resume;
+

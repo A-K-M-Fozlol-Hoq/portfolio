@@ -4,6 +4,7 @@ import OneDemic from '../OneDemic/OneDemic';
 import Project from '../Project/Project';
 import './Projects.css'
 import {projectsData} from './kidProjects'
+import Footer from '../../Footer/Footer';
 
 
 const Projects = () => {
@@ -34,6 +35,8 @@ const Projects = () => {
                     }
                 </div>
             </div>
+            
+            <Footer></Footer>
         </div>
     );
 };

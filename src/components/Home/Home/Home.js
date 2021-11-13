@@ -1,8 +1,10 @@
 import React from 'react';
-import ContactForm from '../ContactForm/ContactForm';
+import Footer from '../../Footer/Footer';
+// import ContactForm from '../ContactForm/ContactForm';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Skills from '../Skills/Skills';
+import WorkTogether from '../WorkTogether/WorkTogether';
 
 
   
@@ -12,7 +14,9 @@ const Home = () => {
             <Navbar></Navbar>
             <Header></Header>
             <Skills></Skills>
-            <ContactForm></ContactForm>
+            <WorkTogether></WorkTogether>
+            {/* <ContactForm></ContactForm> */}
+            <Footer></Footer>
         </div>
     );
 };
