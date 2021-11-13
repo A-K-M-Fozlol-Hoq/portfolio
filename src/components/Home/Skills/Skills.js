@@ -49,7 +49,7 @@ const Skills = () => {
                     </div>
                     <div className="single-skill">
                         <img src={eight} alt="" />
-                        <p>TailsWind CSS</p>
+                        <p>TailWind CSS</p>
                     </div>
                     <div className="single-skill">
                         <img src={nine} alt="" />

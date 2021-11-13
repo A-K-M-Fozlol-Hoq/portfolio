@@ -11,8 +11,8 @@ const Header = () => {
                 <div className="header-info row d-flex">
                     <div className="col-md-6">
                         <div className="header-title">
-                            <h1>Welcome to</h1>
-                            <h1><span className="greenyellow-highlight">Fozlol Hoq's</span> World</h1>
+                            <h1 style={{color:'black'}}>Welcome to</h1>
+                            <h1 style={{color: 'black'}}><span className="greenyellow-highlight">Fozlol Hoq's</span> World</h1>
                         </div>
                         <Typed
                             className="typed-text"

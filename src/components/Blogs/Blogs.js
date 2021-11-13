@@ -7,7 +7,7 @@ const Blogs = () => {
     return (
         <div className="blogs-wrapper" style={{backgroundColor: '#FFFBF0'}}>
             <Navbar></Navbar>
-            <h1 className="pb-5 text-center">BY BLOGS AT MEDIUM</h1>
+            <h1 className="pb-5 text-center">BY BLOGS AT <span style={{color: '#F56160'}}>MEDIUM</span> </h1>
             <div style={{background:'#000', height:'5px', width:'250px', margin:'auto', marginTop:'-30px', marginBottom:'70px'}}></div>
             <div className="all-blogs" style={{ minHeight:'700px', marginBottom:'100px'}}>
             {

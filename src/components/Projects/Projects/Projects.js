@@ -5,15 +5,18 @@ import Project from '../Project/Project';
 import './Projects.css'
 import {projectsData} from './kidProjects'
 import Footer from '../../Footer/Footer';
+import SelectProjectType from '../SelectProjectType/SelectProjectType';
 
 
 const Projects = () => {
     return (
         <div className='projects-wrapper'>
             <Navbar></Navbar>
-            <h1 className='text-center mt-5 mb-3'>My Recent <span className='greenyellow-highlight'>Works</span> </h1>
-            <div className="divider mb-2">
-            </div>
+            <div style={{backgroundColor: '#FFFBF0'}}>
+            <h1 className='text-center mb-3'>My Recent <span style={{color: '#F56160'}}>Works</span> </h1>
+            
+            <div style={{background:'#000', height:'5px', width:'250px', margin:'0px auto 50px'}}></div>
+            <SelectProjectType></SelectProjectType>
             <h1 className='text-center mt-5 mb-3'><span className='greenyellow-highlight'>OneDemic</span> </h1>
             <div className="divider mb-2"></div>
             <OneDemic></OneDemic>
@@ -34,6 +37,7 @@ const Projects = () => {
                         ></Project>)
                     }
                 </div>
+            </div>
             </div>
             
             <Footer></Footer>
