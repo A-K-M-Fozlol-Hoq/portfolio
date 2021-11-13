@@ -10,8 +10,8 @@ const About = () => {
     return (
         <div style={{backgroundColor:'#FFFBF0'}}>
             <Navbar></Navbar>
-            <h1 style={{ fontWeight: '400' }} className='greenyellow-highlight mt-5 mb-3 text-center'>ABOUT ME</h1>
-            <div className="divider mb-5"></div>
+            <h1 style={{ fontWeight: '400' }} className='text-black mb-2 text-center'>ABOUT ME</h1>
+            <div style={{background:'#000', height:'5px', width:'100px', margin:'auto'}}></div>
             <div className="about-wrapper">
                 <div className="container">
                     <div className="about-info mb-5">

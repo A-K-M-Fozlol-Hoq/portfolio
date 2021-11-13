@@ -1,24 +1,40 @@
-/* .resume-secion button{
+/* .resume-section button{
     width:20%;
     margin-left: 40%;
 } */
 
- .resume-secion .btn{
+ .resume-section .btn{
   width:20%;
   margin-left: 40%;
 }
 .vertical-line {
   height: 3px;
-  background-color:orange;
-  background-color:var(--primary-orange);
+  background-color:#000;
+  /* background-color:var(--primary-orange); */
 }
-.resume-secion a{
+.resume-section a{
     text-decoration: none !important;
     color: black;
 }
-.resume-secion .card {
+.resume-section .card {
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
+    margin-bottom: 50px;
     /* background-color: #f1f1f1; */
   }
+.resume-section .view-resume-btn{
+  background-color: #000;
+  color:#fff;
+  padding: 10px 0;
+}
+.resume-section .view-resume-btn:hover{
+  background-color: #fff;
+  color:#000;
+  transition-duration: 1s;
+}
+.resume-section .container .row .col-sm-6:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  transition-duration: 1s;
+}
