@@ -19,8 +19,8 @@
     cursor:pointer;
     /* background:#F56160; */
     /* background:#FFFBF0; */
-    /* background:#28A745; */
-    background:#BDFE54;
+    background:#28A745;
+    /* background:#BDFE54; */
     color:#fff;
     border-radius: 20px;
 }
@@ -41,6 +41,6 @@
     margin-top: 20px;
 }
 @keyframes skill {
-    0% {color: red; left:0px; top:-500px;}
-    100% {color: greenyellow; left:0px; top:0px;}
+    0% {color: rgba(84, 101, 194, 0.151); left:0px; top:-500px;}
+    100% {color: #000080; left:0px; top:0px;}
   }

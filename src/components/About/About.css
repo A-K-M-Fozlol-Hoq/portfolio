@@ -2,7 +2,7 @@
     display:flex;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
 }
 /* .about-wrapper .about-info{
     color:#fff;

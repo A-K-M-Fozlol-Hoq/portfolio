@@ -15,8 +15,8 @@ const Skills = () => {
         <div className="skill-section">
             <div className='container pb-5 pt-5'>
 
-                <h1 className=' text-center skill-header'>Currently I am <span style={{color:'#BDFE54'}}>learning </span>
-                 and <span style={{color:'#F56160'}}>working </span> on</h1>
+                <h1 className=' text-center skill-header'>Currently I am <span style={{color:'#000080'}}>learning </span>
+                 and <span style={{color:'#000080'}}>working </span> on</h1>
 
                 <div className="skills" style ={{width:'110%',marginLeft:'-5%', display:'grid', gridTemplateColumns:'repeat(5,1fr)', gridGap:'10px'}}>
                     <div className="single-skill">

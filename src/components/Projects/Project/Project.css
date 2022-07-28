@@ -4,9 +4,10 @@
 }
 .project-card button{
     width:100%;
+    background-color:rgba(0, 0, 128, 0.705);
 }
 .project-card button:hover{
-    background-color:blue;
+    background-color:rgba(0, 0, 255, 0.616);
 }
 .project-card a{
     text-decoration: none;

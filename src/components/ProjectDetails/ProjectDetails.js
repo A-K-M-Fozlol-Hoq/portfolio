@@ -5,6 +5,7 @@ import Navbar from '../Home/Navbar/Navbar';
 import './ProjectDetails.css'
 const ProjectDetails = () => {
     const { projectId } = useParams();
+    console.log(projectId);
     return (
         <div>
             <Navbar></Navbar>

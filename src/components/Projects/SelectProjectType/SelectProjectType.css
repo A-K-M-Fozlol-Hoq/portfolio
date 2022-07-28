@@ -1,4 +1,22 @@
 .select-project-type-wrapper{
-    background: #000000;
-    color: #fff;
+    width:450px;
+    margin: auto;
+}
+.select-project-type-wrapper .project-types{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.select-project-type-wrapper .project-types .project-type{
+   background: #000;
+   color:#fff;
+   border-radius: 5px;
+   padding:4px;
+   text-align: center;
+}
+.select-project-type-wrapper .project-types .project-type:hover{
+   background: #fff;
+   color:#000;
+   transition-duration: 1s;
+   cursor: pointer;
 }
